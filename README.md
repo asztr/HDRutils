@@ -93,7 +93,7 @@ HDRutils.imwrite('merged.exr', HDR_img)
 ```
 
 ### Alignment
-While merging, some ghosting artifacts can be removed by setting `HDRutils.merge(..., align=True)`. This attempts homography alignment and corrects camera motion for still scenes. Unfortunately non-rigid motion requiring dense optical flow is not yet implemented.
+While merging, some ghosting artifacts can be removed by setting `HDRutils.merge(..., do_align=True)`. This attempts homography alignment and corrects camera motion for still scenes. Unfortunately non-rigid motion requiring dense optical flow is not yet implemented.
 
 
 ### Exposure estimation
